@@ -1,7 +1,7 @@
 const HDWalletProvider = require('@truffle/hdwallet-provider')
 const Web3 = require('web3');
 const { interface, bytecode } = require('./compile');
-const mnemonicPhase = 'cupboard noodle people often parent always give snack march rotate piece cinnamon';
+const mnemonicPhase = '--INSERT MNEMONIC HERE---';
 
 let provider = new HDWalletProvider({
 
