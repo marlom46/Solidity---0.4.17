@@ -145,5 +145,6 @@ describe('Lottery Contract', () => {
 
         const lotteryBalance = await web3.eth.getBalance(lottery.options.address);
         assert.strictEqual('0', lotteryBalance);
+        
     });
 });
